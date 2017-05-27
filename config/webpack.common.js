@@ -8,6 +8,7 @@ var helpers = require('./helpers');
 
 module.exports = {
     entry: {
+        'polyfills': './src/main/resources/angular/polyfills.ts',
         'vendor': './src/main/resources/angular/vendor.ts',
         'app': './src/main/resources/angular/main.ts'
     },
@@ -33,7 +34,7 @@ module.exports = {
             },
             {
                 test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
-                loader: 'file-loader?name=assets/[name].[hash].[ext]'
+                loader: 'file-loader?name=../assets/[name].[hash].[ext]'
             },
             {
                 test: /\.css$/,
@@ -58,7 +59,7 @@ module.exports = {
         ),
 
         new webpack.optimize.CommonsChunkPlugin({
-            name: ['app', 'vendor']
+            name: ['app', 'vendor', 'polyfills']
         })/*,
 
         new HtmlWebpackPlugin({
