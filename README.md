@@ -11,9 +11,6 @@ Steps to run the project:-
 
 mvn install
 
-npm install
-
-npm run build
 
 
 and then deploy on the tomcat server.
