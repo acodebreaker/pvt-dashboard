@@ -38,17 +38,12 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                exclude: helpers.root('src', 'app'),
+                exclude: helpers.root('src', 'angular'),
                 loader: ExtractTextPlugin.extract({ fallbackLoader: 'style-loader', loader: 'css-loader?sourceMap' })
             },
             {
                 test: /\.css$/,
-                include: helpers.root('node_modules', 'gentelella'),
-                loader: 'raw-loader'
-            },
-            {
-                test: /\.css$/,
-                include: helpers.root('src', 'app'),
+                include: helpers.root('src', 'angular'),
                 loader: 'raw-loader'
             }
         ]
