@@ -11,6 +11,7 @@ import '@angular/http';
 import '@angular/router';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.min';
+import 'gentelella/production/less/custom.css'
 // RxJS
 import 'rxjs';
 

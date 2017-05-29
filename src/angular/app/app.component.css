@@ -1,0 +1,19 @@
+.container-body{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #1b6d85;
+    height: 100vh;
+}
+
+.pvt-nav{
+    margin-bottom: 0px;
+}
+
+.pvt-nav-component{
+
+}
+
+.pvt-body{
+    padding-left: 0px;
+}
