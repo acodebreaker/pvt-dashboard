@@ -1,9 +1,9 @@
 {
-  "name": "angular-quickstart",
+  "name": "angular2-webpack",
   "version": "1.0.0",
   "description": "QuickStart package.json from the documentation, supplemented with testing support",
   "scripts": {
-    "build": "rimraf dist && webpack --config config/webpack.dev.js --progress --profile",
+    "build": "rimraf dist && webpack --config config/webpack.dev.js --progress --profile --bail",
     "prod": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile",
     "pretest": "npm run build",
     "test": "concurrently \"npm run build:watch\" \"karma start karma.conf.js\"",

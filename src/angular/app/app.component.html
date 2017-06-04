@@ -15,28 +15,28 @@
 
 
     <div>
-        <div class="panel-group" id="accordion">
-            <div class="panel panel-default" *ngFor="let teamdata of data">
+            <div class="panel-group" id="accordion">
+            <div class="panel panel-default" *ngFor="let team of teams">
                 <div class="panel-heading">
                     <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#{{teamdata.name}}">
-                            {{teamdata.name}}</a>
+                        <a data-toggle="collapse" data-parent="#accordion" href="#{{team.name}}">
+                            {{team.name}}</a>
                     </h4>
                 </div>
-                <div id="{{teamdata.name}}" class="panel-collapse collapse">
+                <div id="{{team.name}}" class="panel-collapse collapse">
                     <table class="table table-hover">
                         <thead>
                         <tr>
-                            <th>Firstname</th>
-                            <th>Lastname</th>
-                            <th>Email</th>
+                            <th>Story ID</th>
+                            <th>Story Description</th>
+                            <th>PVT Status</th>
                         </tr>
                         </thead>
                         <tbody>
-                        <tr *ngFor="let story of teamdata.story">
-                            <td>{{story.story}}</td>
+                        <tr *ngFor="let story of team.story">
+                            <td>{{story.id}}</td>
                             <td>{{story.description}}</td>
-                            <td>{{story.progress}}</td>
+                            <td>{{story.status}}</td>
                         </tr>
                         </tbody>
                     </table>

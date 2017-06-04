@@ -1,7 +1,7 @@
 
 
 export class Story{
-    story:number;
+    id: string;
     description : string;
-    progress: string;
+    status: string;
 }

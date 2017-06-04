@@ -1,1 +1,1956 @@
-{}
+{
+  "QueryResult": {
+    "TotalResultCount": 96,
+    "StartIndex": 1,
+    "PageSize": 25,
+    "Results": [
+      {
+        "_ref": "/hierarchicalrequirement/118427350060",
+        "_refObjectName": "Right Now - CP3 upgrade testing",
+        "_p": "7",
+        "ObjectID": 118427350060,
+        "VersionId": "19",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US115310",
+        "DirectChildrenCount": 0,
+        "Name": "Right Now - CP3 upgrade testing",
+        "Project": {
+          "_ref": "/project/30186599796",
+          "_refObjectName": "Sigma",
+          "_p": "0",
+          "ObjectID": 30186599796,
+          "VersionId": "45",
+          "Children": {
+            "_ref": "/Project/30186599796/Children",
+            "_type": "Project",
+            "Count": 0
+          },
+          "Name": "Sigma",
+          "Parent": {
+            "_ref": "/project/27342962325",
+            "_refObjectName": "CWS",
+            "_p": "0",
+            "ObjectID": 27342962325,
+            "VersionId": "35",
+            "Name": "CWS",
+            "State": "Open",
+            "_type": "Project"
+          },
+          "State": "Open",
+          "_type": "Project"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/118427350060/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [],
+          "Count": 0
+        },
+        "ScheduleState": "Completed",
+        "ScheduleStatePrefix": "C",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/118427350060/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/118427350060/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{wG!%>UPf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720",
+          "_refObjectName": "Sprint 20170524",
+          "_p": "7",
+          "ObjectID": 79618883720,
+          "VersionId": "4",
+          "Name": "Sprint 20170524",
+            "PlanEstimate": 31,
+            "Project": {
+              "_ref": "/project/30186599796",
+              "Name": "Enigma"
+          },
+          "State": "Planning",
+          "TaskEstimateTotal": 286,
+          "TaskRemainingTotal": 0,
+          "_type": "Iteration"
+        },
+        "Parent": null,
+        "PlanEstimate": 2,
+        "Release": {
+          "_ref": "/release/49718375157",
+          "_refObjectName": "NO RELEASE",
+          "_p": "7",
+          "ObjectID": 49718375157,
+          "VersionId": "4",
+          "Name": "NO RELEASE",
+          "PlanEstimate": 423,
+          "Project": {
+            "_ref": "/project/30186599796",
+            "Name": "Eureka"
+          },
+          "State": "Active",
+          "TaskEstimateTotal": 3324.8,
+          "TaskRemainingTotal": 74,
+          "_type": "Release"
+        },
+        "TaskEstimateTotal": 21,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/118427350060/Tasks",
+          "_type": "Task",
+          "Count": 3
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/118427350060/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/defect/118353281672",
+        "_refObjectName": "INC0046755678 CWS - PARTNER USA partner redirect displays old graphic with invalid offer",
+        "_p": "7",
+        "ObjectID": 118353281672,
+        "VersionId": "31",
+        "DisplayColor": "#f9a814",
+        "FormattedID": "DE10800",
+        "Name": "INC0046755678 CWS - PARTNER USA partner redirect displays old graphic with invalid offer",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/Defect/118353281672/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "Incident",
+              "_ref": "/tag/35678914748"
+            }
+          ],
+          "Count": 1
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "DefectSuites": {
+          "_ref": "/Defect/118353281672/DefectSuites",
+          "_type": "DefectSuite",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{wH!%>UPf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "PlanEstimate": 1,
+        "Release": {
+          "_ref": "/release/76990740388",
+          "_refObjectName": "BTG20170531",
+          "_p": "7",
+          "ObjectID": 76990740388,
+          "VersionId": "1",
+          "Name": "BTG20170531",
+          "PlanEstimate": 27,
+          "Project": {
+            "_ref": "/project/30186599796"
+          },
+          "State": "Planning",
+          "TaskEstimateTotal": 200.5,
+          "TaskRemainingTotal": 1,
+          "_type": "Release"
+        },
+        "Requirement": {
+          "_ref": "/hierarchicalrequirement/95163645428",
+          "_refObjectName": "SIGMA - Incident/Unplanned Production Support, Sprint 20170524",
+          "_p": "7",
+          "ObjectID": 95163645428,
+          "VersionId": "22",
+          "DisplayColor": "#21a2e0",
+          "FormattedID": "US100532",
+          "DirectChildrenCount": 0,
+          "Name": "SIGMA - Incident/Unplanned Production Support, Sprint 20170524",
+          "Project": {
+            "_ref": "/project/30186599796"
+          },
+          "Ready": false,
+          "Tags": {
+            "_ref": "/HierarchicalRequirement/95163645428/Tags",
+            "_type": "Tag",
+            "_tagsNameArray": [
+              {
+                "Name": "No Tealeaf Impact",
+                "_ref": "/tag/52116185884"
+              },
+              {
+                "Name": "Perf Impact No",
+                "_ref": "/tag/87830258180"
+              }
+            ],
+            "Count": 2
+          },
+          "ScheduleState": "Accepted",
+          "ScheduleStatePrefix": "A",
+          "Blocked": false,
+          "Children": {
+            "_ref": "/HierarchicalRequirement/95163645428/Children",
+            "_type": "HierarchicalRequirement",
+            "Count": 0
+          },
+          "DefectStatus": "ALL_CLOSED",
+          "DragAndDropRank": "O~{~=8T>UPf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+          "Iteration": {
+            "_ref": "/iteration/79618883720"
+          },
+          "Parent": null,
+          "PlanEstimate": 0,
+          "Release": {
+            "_ref": "/release/49718375157"
+          },
+          "TaskEstimateTotal": 16,
+          "TaskRemainingTotal": 0,
+          "TaskStatus": "COMPLETED",
+          "Tasks": {
+            "_ref": "/HierarchicalRequirement/95163645428/Tasks",
+            "_type": "Task",
+            "Count": 1
+          },
+          "TestCases": {
+            "_ref": "/HierarchicalRequirement/95163645428/TestCases",
+            "_type": "TestCase",
+            "Count": 0
+          },
+          "_type": "HierarchicalRequirement"
+        },
+        "State": "Closed",
+        "TaskEstimateTotal": 3,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/Defect/118353281672/Tasks",
+          "_type": "Task",
+          "Count": 2
+        },
+        "TestCase": null,
+        "TestCases": {
+          "_ref": "/Defect/118353281672/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "Defect"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/114765798936",
+        "_refObjectName": "Implement modal for hard blocking IE10 browser customer from servicing BCUS CWS",
+        "_p": "7",
+        "ObjectID": 114765798936,
+        "VersionId": "29",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US113027",
+        "DirectChildrenCount": 0,
+        "Name": "Implement modal for hard blocking IE10 browser customer from servicing BCUS CWS",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/114765798936/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "Tealeaf Impact",
+              "_ref": "/tag/52443416879"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 2
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/114765798936/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/114765798936/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{|2!Go#VZ;J,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "Parent": null,
+        "PlanEstimate": 2,
+        "Release": {
+          "_ref": "/release/76990740388"
+        },
+        "TaskEstimateTotal": 7,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/114765798936/Tasks",
+          "_type": "Task",
+          "Count": 3
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/114765798936/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/defect/59851998481",
+        "_refObjectName": "Forcing an error on the Edit a bank account  page causes the disappearance of the account information on the page",
+        "_p": "7",
+        "ObjectID": 59851998481,
+        "VersionId": "47",
+        "DisplayColor": "#f9a814",
+        "FormattedID": "DE5308",
+        "Name": "Forcing an error on the Edit a bank account  page causes the disappearance of the account information on the page",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/Defect/59851998481/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 2
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "DefectSuites": {
+          "_ref": "/Defect/59851998481/DefectSuites",
+          "_type": "DefectSuite",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{|2\"QDIh7#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "PlanEstimate": 2,
+        "Release": {
+          "_ref": "/release/76990740388"
+        },
+        "Requirement": {
+          "_ref": "/hierarchicalrequirement/95163645428",
+          "_type": "HierarchicalRequirement"
+        },
+        "State": "Closed",
+        "TaskEstimateTotal": 17,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/Defect/59851998481/Tasks",
+          "_type": "Task",
+          "Count": 4
+        },
+        "TestCase": null,
+        "TestCases": {
+          "_ref": "/Defect/59851998481/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "Defect"
+      },
+      {
+        "_ref": "/defect/112576654748",
+        "_refObjectName": "INC0046191853: CWS - PAV: \"Exit Review\" button of the PAV warning modal should direct to ASUM",
+        "_p": "7",
+        "ObjectID": 112576654748,
+        "VersionId": "72",
+        "DisplayColor": "#f9a814",
+        "FormattedID": "DE10472",
+        "Name": "INC0046191853: CWS - PAV: \"Exit Review\" button of the PAV warning modal should direct to ASUM",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/Defect/112576654748/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            },
+            {
+              "Name": "Incident",
+              "_ref": "/tag/35678914748"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 3
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "DefectSuites": {
+          "_ref": "/Defect/112576654748/DefectSuites",
+          "_type": "DefectSuite",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{|2&wV&Pf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "PlanEstimate": 2,
+        "Release": {
+          "_ref": "/release/76990740388"
+        },
+        "Requirement": {
+          "_ref": "/hierarchicalrequirement/114407790028",
+          "_refObjectName": "[SPIKE] -INC0046191853: CWS - PAV: \"Exit Review\" button of the PAV warning modal should direct to ASUM (DE10472)",
+          "_p": "7",
+          "ObjectID": 114407790028,
+          "VersionId": "21",
+          "DisplayColor": "#21a2e0",
+          "FormattedID": "US112834",
+          "DirectChildrenCount": 0,
+          "Name": "[SPIKE] -INC0046191853: CWS - PAV: \"Exit Review\" button of the PAV warning modal should direct to ASUM (DE10472)",
+          "Project": {
+            "_ref": "/project/30186599796"
+          },
+          "Ready": false,
+          "Tags": {
+            "_ref": "/HierarchicalRequirement/114407790028/Tags",
+            "_type": "Tag",
+            "_tagsNameArray": [],
+            "Count": 0
+          },
+          "ScheduleState": "Accepted",
+          "ScheduleStatePrefix": "A",
+          "Blocked": false,
+          "Children": {
+            "_ref": "/HierarchicalRequirement/114407790028/Children",
+            "_type": "HierarchicalRequirement",
+            "Count": 0
+          },
+          "DefectStatus": "ALL_CLOSED",
+          "DragAndDropRank": "P!*kHs8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+          "Iteration": {
+            "_ref": "/iteration/79618250684",
+            "_refObjectName": "Sprint 20170510",
+            "_p": "7",
+            "ObjectID": 79618250684,
+            "VersionId": "5",
+            "Name": "Sprint 20170510",
+            "PlanEstimate": 35,
+            "Project": {
+              "_ref": "/project/30186599796"
+            },
+            "State": "Accepted",
+            "TaskEstimateTotal": 252,
+            "TaskRemainingTotal": 0,
+            "_type": "Iteration"
+          },
+          "Parent": {
+            "_ref": "/hierarchicalrequirement/112575800724",
+            "_refObjectName": "SIGMA - Incident/Unplanned Production Support, Sprint 20170510",
+            "_p": "7",
+            "ObjectID": 112575800724,
+            "VersionId": "26",
+            "DisplayColor": "#21a2e0",
+            "FormattedID": "US111690",
+            "DirectChildrenCount": 1,
+            "Name": "SIGMA - Incident/Unplanned Production Support, Sprint 20170510",
+            "Project": {
+              "_ref": "/project/30186599796"
+            },
+            "Ready": false,
+            "Tags": {
+              "_ref": "/HierarchicalRequirement/112575800724/Tags",
+              "_type": "Tag",
+              "_tagsNameArray": [],
+              "Count": 0
+            },
+            "ScheduleState": "Accepted",
+            "ScheduleStatePrefix": "A",
+            "Blocked": false,
+            "DefectStatus": null,
+            "DragAndDropRank": "P!*kI~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "Iteration": null,
+            "PlanEstimate": 2,
+            "Release": null,
+            "TaskEstimateTotal": 12,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": null,
+            "Tasks": {
+              "_ref": "/HierarchicalRequirement/112575800724/Tasks",
+              "_type": "Task",
+              "Count": 0
+            },
+            "TestCases": {
+              "_ref": "/HierarchicalRequirement/112575800724/TestCases",
+              "_type": "TestCase",
+              "Count": 0
+            },
+            "_type": "HierarchicalRequirement"
+          },
+          "PlanEstimate": 2,
+          "Release": {
+            "_ref": "/release/49718375157"
+          },
+          "TaskEstimateTotal": 12,
+          "TaskRemainingTotal": 0,
+          "TaskStatus": "COMPLETED",
+          "Tasks": {
+            "_ref": "/HierarchicalRequirement/114407790028/Tasks",
+            "_type": "Task",
+            "Count": 0
+          },
+          "TestCases": {
+            "_ref": "/HierarchicalRequirement/114407790028/TestCases",
+            "_type": "TestCase",
+            "Count": 0
+          },
+          "_type": "HierarchicalRequirement"
+        },
+        "State": "Closed",
+        "TaskEstimateTotal": 20,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/Defect/112576654748/Tasks",
+          "_type": "Task",
+          "Count": 5
+        },
+        "TestCase": null,
+        "TestCases": {
+          "_ref": "/Defect/112576654748/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "Defect"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/114154131712",
+        "_refObjectName": "ADA: BT Offers: Make info pop up as expandable and being announced.",
+        "_p": "7",
+        "ObjectID": 114154131712,
+        "VersionId": "66",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US112677",
+        "DirectChildrenCount": 0,
+        "Name": "ADA: BT Offers: Make info pop up as expandable and being announced.",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/114154131712/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 2
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/114154131712/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/114154131712/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{|2y1'&Pf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "Parent": null,
+        "PlanEstimate": 2,
+        "Release": {
+          "_ref": "/release/76990740388"
+        },
+        "TaskEstimateTotal": 7,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/114154131712/Tasks",
+          "_type": "Task",
+          "Count": 4
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/114154131712/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/115809157800",
+        "_refObjectName": "CL: Add browser detection capability to CL customer portal",
+        "_p": "7",
+        "ObjectID": 115809157800,
+        "VersionId": "74",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US113593",
+        "DirectChildrenCount": 0,
+        "Name": "CL: Add browser detection capability to CL customer portal",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/115809157800/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "Tealeaf Impact",
+              "_ref": "/tag/52443416879"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 2
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/115809157800/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/115809157800/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{|2yv)~\\NRy,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "Parent": null,
+        "PlanEstimate": 5,
+        "Release": {
+          "_ref": "/release/76990740388"
+        },
+        "TaskEstimateTotal": 46,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/115809157800/Tasks",
+          "_type": "Task",
+          "Count": 10
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/115809157800/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/113150434180",
+        "_refObjectName": "ADA: BT offers - Make \"Delete\" link focusable",
+        "_p": "7",
+        "ObjectID": 113150434180,
+        "VersionId": "45",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US112229",
+        "DirectChildrenCount": 0,
+        "Name": "ADA: BT offers - Make \"Delete\" link focusable",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/113150434180/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 2
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/113150434180/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/113150434180/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{|2{D/rs}Ry,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "Parent": null,
+        "PlanEstimate": 1,
+        "Release": {
+          "_ref": "/release/76990740388"
+        },
+        "TaskEstimateTotal": 13,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/113150434180/Tasks",
+          "_type": "Task",
+          "Count": 5
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/113150434180/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/114067361208",
+        "_refObjectName": "ADA: BT Offers- Make table row heading of Terms and Conditions declarable",
+        "_p": "7",
+        "ObjectID": 114067361208,
+        "VersionId": "47",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US112593",
+        "DirectChildrenCount": 0,
+        "Name": "ADA: BT Offers- Make table row heading of Terms and Conditions declarable",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/114067361208/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 2
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/114067361208/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/114067361208/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{|2|+2m!f#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "Parent": null,
+        "PlanEstimate": 1,
+        "Release": {
+          "_ref": "/release/76990740388"
+        },
+        "TaskEstimateTotal": 7,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/114067361208/Tasks",
+          "_type": "Task",
+          "Count": 4
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/114067361208/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/115163071592",
+        "_refObjectName": "ADA- BT: Multiple sections are not identified",
+        "_p": "7",
+        "ObjectID": 115163071592,
+        "VersionId": "43",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US113449",
+        "DirectChildrenCount": 0,
+        "Name": "ADA- BT: Multiple sections are not identified",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/115163071592/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 2
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/115163071592/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/115163071592/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{|2~>;[D}Ry,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "Parent": null,
+        "PlanEstimate": 2,
+        "Release": {
+          "_ref": "/release/76990740388"
+        },
+        "TaskEstimateTotal": 16,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/115163071592/Tasks",
+          "_type": "Task",
+          "Count": 4
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/115163071592/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/102935176104",
+        "_refObjectName": "ADA - BT -Declare sort role and state to Transfer history page",
+        "_p": "7",
+        "ObjectID": 102935176104,
+        "VersionId": "42",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US105156",
+        "DirectChildrenCount": 0,
+        "Name": "ADA - BT -Declare sort role and state to Transfer history page",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/102935176104/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 2
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/102935176104/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/102935176104/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{|2~`l)JqjJ,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "Parent": null,
+        "PlanEstimate": 2,
+        "Release": {
+          "_ref": "/release/76990740388"
+        },
+        "TaskEstimateTotal": 8,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/102935176104/Tasks",
+          "_type": "Task",
+          "Count": 3
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/102935176104/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/114388954664",
+        "_refObjectName": "ADA - Add purple focus indicator for accessibility microsite",
+        "_p": "7",
+        "ObjectID": 114388954664,
+        "VersionId": "43",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US112793",
+        "DirectChildrenCount": 0,
+        "Name": "ADA - Add purple focus indicator for accessibility microsite",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/114388954664/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            },
+            {
+              "Name": "No Tealleaf impact",
+              "_ref": "/tag/114142726992"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 3
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/114388954664/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/114388954664/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{|3!%>UPf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "Parent": null,
+        "PlanEstimate": 3,
+        "Release": {
+          "_ref": "/release/76990740388"
+        },
+        "TaskEstimateTotal": 21,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/114388954664/Tasks",
+          "_type": "Task",
+          "Count": 6
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/114388954664/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/113102518324",
+        "_refObjectName": "Lab Day: Sprint20170524",
+        "_p": "7",
+        "ObjectID": 113102518324,
+        "VersionId": "26",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US112154",
+        "DirectChildrenCount": 0,
+        "Name": "Lab Day: Sprint20170524",
+        "Project": {
+          "_ref": "/project/33146904720",
+          "_refObjectName": "Eureka",
+          "_p": "0",
+          "ObjectID": 33146904720,
+          "VersionId": "22",
+          "Children": {
+            "_ref": "/Project/33146904720/Children",
+            "_type": "Project",
+            "Count": 0
+          },
+          "Name": "Eureka",
+          "Parent": {
+            "_ref": "/project/27342962325"
+          },
+          "State": "Open",
+          "_type": "Project"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/113102518324/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [],
+          "Count": 0
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/113102518324/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/113102518324/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{}\"P%>UPf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618884224",
+          "_refObjectName": "Sprint 20170524",
+          "_p": "7",
+          "ObjectID": 79618884224,
+          "VersionId": "2",
+          "Name": "Sprint 20170524",
+          "PlanEstimate": 37,
+          "Project": {
+            "_ref": "/project/33146904720"
+          },
+          "State": "Planning",
+          "TaskEstimateTotal": 343,
+          "TaskRemainingTotal": 0,
+          "_type": "Iteration"
+        },
+        "Parent": null,
+        "PlanEstimate": 0,
+        "Release": {
+          "_ref": "/release/49718375505",
+          "_refObjectName": "NO RELEASE",
+          "_p": "7",
+          "ObjectID": 49718375505,
+          "VersionId": "4",
+          "Name": "NO RELEASE",
+          "PlanEstimate": 18,
+          "Project": {
+            "_ref": "/project/33146904720"
+          },
+          "State": "Active",
+          "TaskEstimateTotal": 414,
+          "TaskRemainingTotal": 0,
+          "_type": "Release"
+        },
+        "TaskEstimateTotal": 12,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/113102518324/Tasks",
+          "_type": "Task",
+          "Count": 6
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/113102518324/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/96875878100",
+        "_refObjectName": "Support - Regression on CLI due to CRCLI Letter Remediation project",
+        "_p": "7",
+        "ObjectID": 96875878100,
+        "VersionId": "50",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US102052",
+        "DirectChildrenCount": 0,
+        "Name": "Support - Regression on CLI due to CRCLI Letter Remediation project",
+        "Project": {
+          "_ref": "/project/33146904720"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/96875878100/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            }
+          ],
+          "Count": 1
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/96875878100/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/96875878100/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{}#8T>UPf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618884224"
+        },
+        "Parent": null,
+        "PlanEstimate": 2,
+        "Release": {
+          "_ref": "/release/76990742044",
+          "_refObjectName": "BTG20170531",
+          "_p": "7",
+          "ObjectID": 76990742044,
+          "VersionId": "1",
+          "Name": "BTG20170531",
+          "PlanEstimate": 37,
+          "Project": {
+            "_ref": "/project/33146904720"
+          },
+          "State": "Planning",
+          "TaskEstimateTotal": 327,
+          "TaskRemainingTotal": 0,
+          "_type": "Release"
+        },
+        "TaskEstimateTotal": 16,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/96875878100/Tasks",
+          "_type": "Task",
+          "Count": 2
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/96875878100/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/108292336056",
+        "_refObjectName": "AA Flight Cents- Update images on Enroll and summary pages",
+        "_p": "7",
+        "ObjectID": 108292336056,
+        "VersionId": "81",
+        "DisplayColor": "#107c1e",
+        "FormattedID": "US108414",
+        "DirectChildrenCount": 0,
+        "Name": "AA Flight Cents- Update images on Enroll and summary pages",
+        "Project": {
+          "_ref": "/project/33146904720"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/108292336056/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            }
+          ],
+          "Count": 1
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/108292336056/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "ALL_CLOSED",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/108292336056/Defects",
+          "_type": "Defect",
+          "Count": 1
+        },
+        "DragAndDropRank": "O~{}#[kmUPf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618884224"
+        },
+        "Parent": null,
+        "PlanEstimate": 3,
+        "Release": {
+          "_ref": "/release/76990742044"
+        },
+        "TaskEstimateTotal": 24,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/108292336056/Tasks",
+          "_type": "Task",
+          "Count": 3
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/108292336056/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/112899893548",
+        "_refObjectName": "ADA - Fix focus  on \"Edit your password\" page",
+        "_p": "7",
+        "ObjectID": 112899893548,
+        "VersionId": "31",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US112039",
+        "DirectChildrenCount": 0,
+        "Name": "ADA - Fix focus  on \"Edit your password\" page",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/112899893548/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 2
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/112899893548/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/112899893548/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{~6!%>UPf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "Parent": null,
+        "PlanEstimate": 1,
+        "Release": {
+          "_ref": "/release/76990740388"
+        },
+        "TaskEstimateTotal": 7,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/112899893548/Tasks",
+          "_type": "Task",
+          "Count": 3
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/112899893548/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/112898752084",
+        "_refObjectName": "ADA - Fix focus and add labels on \"Edit your username\" page",
+        "_p": "7",
+        "ObjectID": 112898752084,
+        "VersionId": "35",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US112034",
+        "DirectChildrenCount": 0,
+        "Name": "ADA - Fix focus and add labels on \"Edit your username\" page",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/112898752084/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 2
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/112898752084/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/112898752084/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{~7!%>UPf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "Parent": null,
+        "PlanEstimate": 1,
+        "Release": {
+          "_ref": "/release/76990740388"
+        },
+        "TaskEstimateTotal": 12,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/112898752084/Tasks",
+          "_type": "Task",
+          "Count": 5
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/112898752084/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/112892604836",
+        "_refObjectName": "ADA - Add focus indicator and labels on \"Edit email address \" page",
+        "_p": "7",
+        "ObjectID": 112892604836,
+        "VersionId": "38",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US112022",
+        "DirectChildrenCount": 0,
+        "Name": "ADA - Add focus indicator and labels on \"Edit email address \" page",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/112892604836/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 2
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/112892604836/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/112892604836/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{~;!%>UPf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "Parent": null,
+        "PlanEstimate": 1,
+        "Release": {
+          "_ref": "/release/76990740388"
+        },
+        "TaskEstimateTotal": 7,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/112892604836/Tasks",
+          "_type": "Task",
+          "Count": 3
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/112892604836/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/112889346440",
+        "_refObjectName": "ADA - Fix focus and add labels on \"Manage your pin\" page",
+        "_p": "7",
+        "ObjectID": 112889346440,
+        "VersionId": "32",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US112019",
+        "DirectChildrenCount": 0,
+        "Name": "ADA - Fix focus and add labels on \"Manage your pin\" page",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/112889346440/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 2
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/112889346440/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/112889346440/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{~<P%>UPf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "Parent": null,
+        "PlanEstimate": 1,
+        "Release": {
+          "_ref": "/release/76990740388"
+        },
+        "TaskEstimateTotal": 6,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/112889346440/Tasks",
+          "_type": "Task",
+          "Count": 3
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/112889346440/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/95088814416",
+        "_refObjectName": "PVT support for 5/17 release",
+        "_p": "7",
+        "ObjectID": 95088814416,
+        "VersionId": "21",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US100409",
+        "DirectChildrenCount": 0,
+        "Name": "PVT support for 5/17 release",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/95088814416/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [],
+          "Count": 0
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/95088814416/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/95088814416/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{~=,kmUPf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "Parent": null,
+        "PlanEstimate": 2,
+        "Release": {
+          "_ref": "/release/49718375157"
+        },
+        "TaskEstimateTotal": 4,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/95088814416/Tasks",
+          "_type": "Task",
+          "Count": 1
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/95088814416/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/94966280120",
+        "_refObjectName": "Lab Day: Sprint 20170524",
+        "_p": "7",
+        "ObjectID": 94966280120,
+        "VersionId": "39",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US100363",
+        "DirectChildrenCount": 0,
+        "Name": "Lab Day: Sprint 20170524",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/94966280120/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 2
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/94966280120/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/94966280120/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~{~=2`'&Pf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "Parent": null,
+        "PlanEstimate": 0,
+        "Release": {
+          "_ref": "/release/49718375157"
+        },
+        "TaskEstimateTotal": 48,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/94966280120/Tasks",
+          "_type": "Task",
+          "Count": 6
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/94966280120/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/95163645428",
+        "_refObjectName": "SIGMA - Incident/Unplanned Production Support, Sprint 20170524",
+        "_p": "7",
+        "ObjectID": 95163645428,
+        "VersionId": "22",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US100532",
+        "DirectChildrenCount": 0,
+        "Name": "SIGMA - Incident/Unplanned Production Support, Sprint 20170524",
+        "Project": {
+          "_ref": "/project/30186599796"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/95163645428/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "No Tealeaf Impact",
+              "_ref": "/tag/52116185884"
+            },
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 2
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/95163645428/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "ALL_CLOSED",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/95163645428/Defects",
+          "_type": "Defect",
+          "Count": 3
+        },
+        "DragAndDropRank": "O~{~=8T>UPf#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883720"
+        },
+        "Parent": null,
+        "PlanEstimate": 0,
+        "Release": {
+          "_ref": "/release/49718375157"
+        },
+        "TaskEstimateTotal": 16,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/95163645428/Tasks",
+          "_type": "Task",
+          "Count": 1
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/95163645428/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/118425810244",
+        "_refObjectName": "Right Now - CP3 upgrade testing",
+        "_p": "7",
+        "ObjectID": 118425810244,
+        "VersionId": "28",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US115308",
+        "DirectChildrenCount": 0,
+        "Name": "Right Now - CP3 upgrade testing",
+        "Project": {
+          "_ref": "/project/30186600601",
+          "_refObjectName": "Odin",
+          "_p": "0",
+          "ObjectID": 30186600601,
+          "VersionId": "68",
+          "Children": {
+            "_ref": "/Project/30186600601/Children",
+            "_type": "Project",
+            "Count": 0
+          },
+          "Name": "Odin",
+          "Parent": {
+            "_ref": "/project/27342962325"
+          },
+          "State": "Open",
+          "_type": "Project"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/118425810244/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [],
+          "Count": 0
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/118425810244/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/118425810244/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~|#.eA5g-NRy,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883800",
+          "_refObjectName": "Sprint 20170524",
+          "_p": "7",
+          "ObjectID": 79618883800,
+          "VersionId": "2",
+          "Name": "Sprint 20170524",
+          "PlanEstimate": 38,
+          "Project": {
+            "_ref": "/project/30186600601"
+          },
+          "State": "Planning",
+          "TaskEstimateTotal": 329.5,
+          "TaskRemainingTotal": 10,
+          "_type": "Iteration"
+        },
+        "Parent": null,
+        "PlanEstimate": 1,
+        "Release": {
+          "_ref": "/release/49718375502",
+          "_refObjectName": "NO RELEASE",
+          "_p": "7",
+          "ObjectID": 49718375502,
+          "VersionId": "4",
+          "Name": "NO RELEASE",
+          "PlanEstimate": 602.05,
+          "Project": {
+            "_ref": "/project/30186600601"
+          },
+          "State": "Active",
+          "TaskEstimateTotal": 6277,
+          "TaskRemainingTotal": 216,
+          "_type": "Release"
+        },
+        "TaskEstimateTotal": 12,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/118425810244/Tasks",
+          "_type": "Task",
+          "Count": 3
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/118425810244/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/115710259056",
+        "_refObjectName": "Pipeline Support",
+        "_p": "7",
+        "ObjectID": 115710259056,
+        "VersionId": "49",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US113492",
+        "DirectChildrenCount": 0,
+        "Name": "Pipeline Support",
+        "Project": {
+          "_ref": "/project/30186600601"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/115710259056/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 1
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/115710259056/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/115710259056/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~|#.f(8a97#y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883800"
+        },
+        "Parent": null,
+        "PlanEstimate": 1,
+        "Release": {
+          "_ref": "/release/49718375502"
+        },
+        "TaskEstimateTotal": 32,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/115710259056/Tasks",
+          "_type": "Task",
+          "Count": 7
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/115710259056/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      },
+      {
+        "_ref": "/hierarchicalrequirement/115710261480",
+        "_refObjectName": "PVT Support",
+        "_p": "7",
+        "ObjectID": 115710261480,
+        "VersionId": "24",
+        "DisplayColor": "#21a2e0",
+        "FormattedID": "US113493",
+        "DirectChildrenCount": 0,
+        "Name": "PVT Support",
+        "Project": {
+          "_ref": "/project/30186600601"
+        },
+        "Ready": false,
+        "Tags": {
+          "_ref": "/HierarchicalRequirement/115710261480/Tags",
+          "_type": "Tag",
+          "_tagsNameArray": [
+            {
+              "Name": "Perf Impact No",
+              "_ref": "/tag/87830258180"
+            }
+          ],
+          "Count": 1
+        },
+        "ScheduleState": "Accepted",
+        "ScheduleStatePrefix": "A",
+        "Blocked": false,
+        "Children": {
+          "_ref": "/HierarchicalRequirement/115710261480/Children",
+          "_type": "HierarchicalRequirement",
+          "Count": 0
+        },
+        "DefectStatus": "NONE",
+        "Defects": {
+          "_ref": "/HierarchicalRequirement/115710261480/Defects",
+          "_type": "Defect",
+          "Count": 0
+        },
+        "DragAndDropRank": "O~|#.fm;[D}Ry,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "Iteration": {
+          "_ref": "/iteration/79618883800"
+        },
+        "Parent": null,
+        "PlanEstimate": 1,
+        "Release": {
+          "_ref": "/release/49718375502"
+        },
+        "TaskEstimateTotal": 26,
+        "TaskRemainingTotal": 0,
+        "TaskStatus": "COMPLETED",
+        "Tasks": {
+          "_ref": "/HierarchicalRequirement/115710261480/Tasks",
+          "_type": "Task",
+          "Count": 3
+        },
+        "TestCases": {
+          "_ref": "/HierarchicalRequirement/115710261480/TestCases",
+          "_type": "TestCase",
+          "Count": 0
+        },
+        "_type": "HierarchicalRequirement"
+      }
+    ],
+    "Sums": {
+      "PlanEstimate": 191,
+      "TaskRemainingTotal": 10,
+      "TaskEstimateTotal": 1932
+    }
+  }
+}
+
