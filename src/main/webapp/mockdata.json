@@ -70,8 +70,7 @@
           "Name": "Sprint 20170524",
             "PlanEstimate": 31,
             "Project": {
-              "_ref": "/project/30186599796",
-              "Name": "Enigma"
+              "_ref": "/project/30186599796"
           },
           "State": "Planning",
           "TaskEstimateTotal": 286,
@@ -122,7 +121,8 @@
         "FormattedID": "DE10800",
         "Name": "INC0046755678 CWS - PARTNER USA partner redirect displays old graphic with invalid offer",
         "Project": {
-          "_ref": "/project/30186599796"
+          "_ref": "/project/30186599796",
+          "Name": "Enigma"
         },
         "Ready": false,
         "Tags": {
@@ -176,7 +176,8 @@
           "DirectChildrenCount": 0,
           "Name": "SIGMA - Incident/Unplanned Production Support, Sprint 20170524",
           "Project": {
-            "_ref": "/project/30186599796"
+            "_ref": "/project/30186599796",
+            "Name": "Orion"
           },
           "Ready": false,
           "Tags": {
@@ -255,7 +256,8 @@
         "DirectChildrenCount": 0,
         "Name": "Implement modal for hard blocking IE10 browser customer from servicing BCUS CWS",
         "Project": {
-          "_ref": "/project/30186599796"
+          "_ref": "/project/30186599796",
+          "Name": "Delta"
         },
         "Ready": false,
         "Tags": {

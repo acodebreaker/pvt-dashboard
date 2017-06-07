@@ -6,7 +6,7 @@
                     <a class="navbar-brand" href="#">Pvt DashBoard</a>
                 </div>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"> Dheeraj Kumar</a></li>
+                    <li><a href="#">CWS</a></li>
                 </ul>
             </div>
         </nav>
@@ -16,13 +16,14 @@
 
     <div>
             <div class="panel-group" id="accordion">
-            <div class="panel panel-default" *ngFor="let team of teams">
+            <div class="panel panel-default" *ngFor="let team of teams.values()">
                 <div class="panel-heading">
                     <h4 class="panel-title">
                         <a data-toggle="collapse" data-parent="#accordion" href="#{{team.name}}">
                             {{team.name}}</a>
                     </h4>
                 </div>
+
                 <div id="{{team.name}}" class="panel-collapse collapse">
                     <table class="table table-hover">
                         <thead>

@@ -1,63 +1,62 @@
-import { Component, OnInit } from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
 import {RallyServices} from './app.service';
 import {Team} from "./team";
-import { Story } from "./story";
+import {Story} from "./story";
 
 @Component({
+  changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls : ['./app.component.css'],
   providers: [RallyServices]
 })
-export class AppComponent implements OnInit{
 
+export class AppComponent implements OnInit {
   data: any;
-  teams: Team[] = [
-    {name: "Odin", story: []},
-    {name: "Sigma", story: []},
-    {name: "Eureka", story: []}
-  ];
+  teams: Map<string, Team>;
 
-  constructor(private rallyServices: RallyServices) { }
+  constructor(private rallyServices: RallyServices, private changeDetectorRef: ChangeDetectorRef) {
+  }
 
   ngOnInit(): void {
-    this.getRallyData();
-  }
+   this.teams= this.createTeamMap();
+   this.getRallyData();
+   }
 
-  private getRallyData():void {
+  private getRallyData(): void {
     this.rallyServices.getRallyData().then((result) => {
-        this.data = result;
+          this.data = result;
           this.translateRallyData();
-      },
-      (error) => {
-        console.error(JSON.stringify(error.status));
-      });
+        },
+        (error) => {
+          console.error(JSON.stringify(error.status));
+        });
 
   }
 
-  private translateRallyData():void {
-      var storiesJson = this.data.QueryResult.Results;
-      var story = new Story();
-      for(let storyJson of storiesJson) {
-        story.id = storyJson.FormattedID;
-        story.description = storyJson.Name;
-        story.status = storyJson.scheduleState;
-        console.log(storyJson.Project.Name);
-        switch (storyJson.Project.Name) {
-          case 'Odin' :
-            this.teams[0].story.push(story);
-            break;
-          case 'Sigma' :
-            this.teams[1].story.push(story);
-            break;
-          case 'Eureka' :
-            this.teams[2].story.push(story);
-            break;
-          default :
-            console.log("not valid story");
-            break;
-        }
-    }
+  private translateRallyData(): void {
+    var storiesJson = this.data.QueryResult.Results;
 
+    for (let storyJson of storiesJson) {
+      var story = new Story();
+      story.id = storyJson.FormattedID;
+      story.description = storyJson.Name;
+      story.status = storyJson.scheduleState;
+      if (storyJson.Project.Name) {
+        this.teams.get(storyJson.Project.Name).story.push(story);
+      }
+    }
+    this.changeDetectorRef.detectChanges();
+  }
+
+  private createTeamMap(): Map<string, Team> {
+    var teams = new Map<string, Team>();
+    teams.set('Enigma', {name: 'Enigma', story: []});
+    teams.set('Eureka', {name: 'Eureka', story: []});
+    teams.set('Orion', {name: 'Orion', story: []});
+    teams.set('Sigma', {name: 'Sigma', story: []});
+    teams.set('Delta', {name: 'Delta', story: []});
+    teams.set('Odin', {name: 'Odin', story: []});
+    return teams;
   }
 }
