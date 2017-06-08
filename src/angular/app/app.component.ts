@@ -41,7 +41,7 @@ export class AppComponent implements OnInit {
       var story = new Story();
       story.id = storyJson.FormattedID;
       story.description = storyJson.Name;
-      story.status = storyJson.scheduleState;
+      story.status = storyJson.ScheduleState;
       if (storyJson.Project.Name) {
         this.teams.get(storyJson.Project.Name).story.push(story);
       }

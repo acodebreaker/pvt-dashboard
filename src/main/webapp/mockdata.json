@@ -323,7 +323,8 @@
         "FormattedID": "DE5308",
         "Name": "Forcing an error on the Edit a bank account  page causes the disappearance of the account information on the page",
         "Project": {
-          "_ref": "/project/30186599796"
+          "_ref": "/project/30186599796",
+          "Name": "Orion"
         },
         "Ready": false,
         "Tags": {
