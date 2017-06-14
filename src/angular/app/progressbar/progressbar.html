@@ -1,0 +1,9 @@
+<div id='progressBar'>
+    <div>
+        <button  class='initial' [class.in-progress]="story.status === 'P'" (click)="changeStatus('P')">P</button>
+        <button id='Success' class='initial' [class.success]="story.status === 'S'" (click)="changeStatus('S')">S</button>
+        <button id='Later by other teams' class='initial' [class.later]="story.status === 'L'" (click)="changeStatus('L')">L</button>
+        <button id='Failed' class='initial' [class.failed]="story.status === 'F'" (click)="changeStatus('F')">F</button>
+        <!--<p>Status of the project is {{story.status}}</p>-->
+    </div>
+</div>

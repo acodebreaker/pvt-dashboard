@@ -1,0 +1,26 @@
+.initial{
+    width: 15%;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    margin-right: 1%;
+    background-color: white;
+}
+
+.in-progress{
+    background-color: yellow;
+}
+
+.success{
+    background-color: limegreen;
+}
+
+.later{
+    background-color: orange;
+}
+
+.failed{
+    background-color: red;
+}
